@@ -5,3 +5,9 @@ public
 .quartz-cache
 private/
 .vscode/
+
+# 排除 submodule 中的特定文件夹
+quartz/docs/
+quartz/.github/
+quartz/CODE_OF_CONDUCT.md
+quartz/LICENSE.txt
