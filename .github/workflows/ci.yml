@@ -25,6 +25,8 @@ jobs:
       - name: Apply configurations
         run: |
           cp quartz.config.ts quartz.layout.ts quartz
+          # 清空 submodule 的 content 目录，只使用根目录的 content
+          rm -rf quartz/content/*
           cp -rf content/* quartz/content/
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -36,7 +38,7 @@ jobs:
         working-directory: quartz
         run: npm ci --omit=dev
       - name: Build website
-        run: npx quartz build
+        run: npx quartz build -d ../content -o public
         working-directory: quartz
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
