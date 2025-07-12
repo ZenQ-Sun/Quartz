@@ -1,3 +1,10 @@
+---
+title: 这个blog的诞生
+date: 2025-07-12T21:21:15+08:00
+tags:
+  - blog
+---
+
 1. 使用模版仓库[template-quartz](https://github.com/sosiristseng/template-quartz)，按照readme完成github.io页面deploy
 2. 这时候是默认的样式，替换submodel````
 ```bash
