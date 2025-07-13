@@ -6,7 +6,7 @@ tags:
 ---
 
 1. 使用模版仓库[template-quartz](https://github.com/sosiristseng/template-quartz)，按照readme完成github.io页面deploy
-2. 这时候是默认的样式，替换submodel````
+2. 这时候是默认的样式，替换submodel
 ```bash
 //克隆到本地
 git clone --recursive https://github.com/ZenQ-Sun/Quartz.git
