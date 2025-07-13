@@ -11,4 +11,5 @@ tags:
 1. ios端安装obsidian然后安装插件remotely Save
 2. 群晖Nas 安装webdav server 启动http或者https
 3. 使用ip “192.168.x.x:5005/yourFolderName” 账号 密码 在ios插件中登陆（如果没有公网ip是不能再非家庭wifi的情况同步，除非弄穿透，不过在家里能够同步已经能够满足我的使用场景）
-<img src="./image/IMG_D43391AFB35A-1.JPEG">
+<img src="./image/IMG_D43391AFB35A-1.jpeg">
+![[IMG-20250713160522206.png]]
